@@ -38,7 +38,8 @@ public class ConvertorGardenSizeLineTU {
 	    		new Object[] { "    5 5", false },
 	    		new Object[] { "8 2   ", false },
 	    		new Object[] { "R R", false },
-	    		new Object[] { "5 G", false }
+	    		new Object[] { "5 G", false },
+	    		new Object[] { null, false }
 	        );
 	}
 	

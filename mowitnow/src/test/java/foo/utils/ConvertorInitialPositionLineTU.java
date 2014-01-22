@@ -41,7 +41,8 @@ public class ConvertorInitialPositionLineTU {
 	    		new Object[] { "    5 5 N", false },
 	    		new Object[] { "8 2 E  ", false },
 	    		new Object[] { "R R 8", false },
-	    		new Object[] { "-1 2 W", false }
+	    		new Object[] { "-1 2 W", false },
+	    		new Object[] { null, false }
 	        );
 	}
 	

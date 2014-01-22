@@ -1,5 +1,7 @@
 package foo.utils;
 
+import org.apache.commons.lang.StringUtils;
+
 import foo.bean.Direction;
 import foo.bean.Position;
 
@@ -11,7 +13,7 @@ public class ConvertorInitialPositionLine extends AbstractConvertorLine<Position
 
 	@Override
 	protected boolean isValidLine() {
-		return line.matches("^[0-9] [0-9] (N|S|W|E)$");
+		return StringUtils.isNotBlank(line) && line.matches("^[0-9] [0-9] (N|S|W|E)$");
 	}
 
 	@Override

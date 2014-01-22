@@ -39,7 +39,8 @@ public class ConvertorCommandLineTU {
 	    		new Object[] { "GADAAGA   ", false },
 	    		new Object[] { "11111", false },
 	    		new Object[] { "  11111", false },
-	    		new Object[] { "11111  ", false }
+	    		new Object[] { "11111  ", false },
+	    		new Object[] { null, false }
 	        );
 	}
 	

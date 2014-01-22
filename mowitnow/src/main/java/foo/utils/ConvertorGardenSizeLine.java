@@ -1,5 +1,7 @@
 package foo.utils;
 
+import org.apache.commons.lang.StringUtils;
+
 import foo.bean.GardenLimit;
 
 public class ConvertorGardenSizeLine extends AbstractConvertorLine<GardenLimit>{
@@ -10,7 +12,7 @@ public class ConvertorGardenSizeLine extends AbstractConvertorLine<GardenLimit>{
 
 	@Override
 	protected boolean isValidLine() {
-		return line.matches("^[0-9] [0-9]$");
+		return StringUtils.isNotBlank(line) && line.matches("^[0-9] [0-9]$");
 	}
 
 	@Override
