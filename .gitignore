@@ -1,0 +1,7 @@
+.metadata/**/*
+RemoteSystemsTempFiles/**/*
+mowitnow/.classpath
+mowitnow/.project
+mowitnow/.settings/**/*
+mowitnow/target/**/*
+.DS_Store
