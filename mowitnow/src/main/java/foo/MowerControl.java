@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import foo.bean.Command;
 import foo.bean.GardenLimit;
 import foo.bean.Mower;
@@ -16,11 +18,14 @@ import foo.utils.ConvertorInitialPositionLine;
 
 public class MowerControl {
 
+	private static final Logger logger = Logger.getLogger(MowerControl.class);
+	
 	private final List<Mower> mowers = new ArrayList<Mower>();
 	
 	public MowerControl(final List<String> file) throws FileFormatInvalidException, InitialPositionMowerInvalidException {
 		
 		if (file == null || file.size() == 0) {
+			logger.error("File is empty !");
 			throw new FileFormatInvalidException();
 		}
 
@@ -34,6 +39,7 @@ public class MowerControl {
 			Position position = new ConvertorInitialPositionLine(positionMowerLine).convert();
 			
 			if (!iterator.hasNext()) {
+				logger.error("File format is invalid !");
 				throw new FileFormatInvalidException();
 			}
 			
