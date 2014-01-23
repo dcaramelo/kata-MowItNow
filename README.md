@@ -1,3 +1,19 @@
+Usage
+=====
+
+Pour lancer l'application de manière autonome avec un fichier de test :
+
+``` sh
+mvn exec:java -Dexec.args="yourFile.txt"
+```
+
+Pour lancer l'ensemble des tests :
+
+``` sh
+mvn test
+```
+
+
 kata-MowItNow
 =============
 
