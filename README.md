@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dcaramelo/kata-MowItNow.png?branch=master)](https://travis-ci.org/dcaramelo/kata-MowItNow)
+
 Usage
 =====
 
