@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dcaramelo/kata-MowItNow.png?branch=master)](https://travis-ci.org/dcaramelo/kata-MowItNow)
+[![Build Status](https://travis-ci.org/dcaramelo/kata-MowItNow.png?branch=master)](https://travis-ci.org/dcaramelo/kata-MowItNow) [![Coverage Status](https://coveralls.io/repos/dcaramelo/kata-MowItNow/badge.png)](https://coveralls.io/r/dcaramelo/kata-MowItNow)
 
 Usage
 =====
