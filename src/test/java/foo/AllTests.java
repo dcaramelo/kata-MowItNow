@@ -6,6 +6,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 import foo.bean.CommandTU;
 import foo.bean.DirectionTU;
+import foo.bean.MowItNowTU;
 import foo.bean.MowerTU;
 import foo.bean.PositionAheatIfPossibleTU;
 import foo.bean.PositionIsValidPositionTU;
@@ -27,6 +28,7 @@ import foo.utils.ConvertorInitialPositionLineTU;
 	MowerTU.class,
 	MowerControlTI.class,
 	MowerControlWithExceptionTI.class,
+	MowItNowTU.class
 })
 public class AllTests{ 
 }
